@@ -48,6 +48,7 @@
     <div class="reveal">
         <div class="tip" id="fs1">namespace System</div>
 <div class="tip" id="fs2">Multiple items<br />type InvalidProgramException =<br />&#160;&#160;inherit SystemException<br />&#160;&#160;new : unit -&gt; InvalidProgramException + 2 overloads<br /><br />Full name: System.InvalidProgramException<br /><br />--------------------<br />System.InvalidProgramException() : unit<br />System.InvalidProgramException(message: string) : unit<br />System.InvalidProgramException(message: string, inner: exn) : unit</div>
+<div class="tip" id="fs3">namespace Microsoft</div>
 
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
@@ -112,6 +113,7 @@ stor deploy<br/>
 <aside class="notes">
 Oppgradering av F# prosjektfil<br/>
 blanding av feil brik av IDisposable + F#<br/>
+GDI+<br/>
 </aside>
 </section>
 <section >
@@ -148,7 +150,7 @@ etter helga<br/>
 <section >
 <h3>Hva skjer ???</h3>
 <ul>
-<li>tregt</li>
+<li>Tregt</li>
 <li>Timeouts</li>
 <li>Sql timeouts</li>
 </ul>
@@ -164,7 +166,7 @@ etter helga<br/>
 </ol>
 </section>
 <section author="Bård Rolstad Henriksen" description="tabber på Yr i det siste" theme="sky" title="Yr tabber &lt; 2016" transition="default">
-<h1>vmware nettverkskort</h1>
+<h2>vmware tools nettverkskort</h2>
 <ul>
 <li>i 2015</li>
 <li>i verdens 6. rikeste land</li>
@@ -190,7 +192,19 @@ reboot av server triggea feil<br/>
 </section>
 <section >
 <h2>Bonus</h2>
-<p>*</p>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="i">PM</span><span class="o">&gt;</span> <span class="i">Install</span><span class="o">-</span><span class="i">Package</span> <span onmouseout="hideTip(event, 'fs3', 3)" onmouseover="showTip(event, 'fs3', 3)" class="i">Microsoft</span><span class="o">.</span><span class="i">Hadoop</span><span class="o">.</span><span class="i">Avro</span>
+</code></pre></td>
+</tr>
+</table>
+<ul>
+<li>-1,2° -&gt; -12°</li>
+<li>-5,6° -&gt; -56°</li>
+</ul>
+<aside class="notes">
+Beta<br/>
+Serialiserer ikke decimal på riktig måte<br/>
 </section>
 
 
