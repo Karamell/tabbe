@@ -19,12 +19,13 @@
 * tail calls
 * 30. april 2015
 ' to historier
+' alt i produksjon
 
 ***
 
 ## Arkitektur
 ![Monolitt](https://upload.wikimedia.org/wikipedia/commons/9/9c/Vigelansparken.JPG)
-' fek. sql brukes til config og stedsnavn
+' feks. sql brukes til config og stedsnavn
 ' organisk vekst i 8 år (folk)
 ' ikke _så_ ille
 
@@ -51,7 +52,7 @@ Slår av "Generate tail calls" i et desperat forsøk på å fikse:
 * En rotekopp hadde slått på generate tail calls i F#-prosjektet
 
 ' Oppgradering av F# prosjektfil
-' blanding av feil brik av IDisposable + F#
+' feil bruk av IDisposable + F#
 ' GDI+
 
 ***
@@ -113,3 +114,14 @@ PM> Install-Package Microsoft.Hadoop.Avro
 
 ' Beta
 ' Serialiserer ikke decimal på riktig måte
+' Bonus 2
+
+***
+- data-background : images/YR-flagg-anim.svg
+- data-background-repeat : no-repeat
+- data-background-size : 100%
+
+***
+- data-background : images/YR-flagg.svg
+- data-background-repeat : no-repeat
+- data-background-size : 100%
