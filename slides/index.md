@@ -52,6 +52,7 @@ Slår av "Generate tail calls" i et desperat forsøk på å fikse:
 
 ' Oppgradering av F# prosjektfil
 ' blanding av feil brik av IDisposable + F#
+' GDI+
 
 ***
 ## desperasjon
@@ -74,7 +75,7 @@ Revert Revert "EntityFramework 6.1.3" TREGT?
 
 ***
 ### Hva skjer ???
-* tregt
+* Tregt
 * Timeouts
 * Sql timeouts
 
@@ -87,7 +88,7 @@ Revert Revert "EntityFramework 6.1.3" TREGT?
 4. generate tail calls
 
 ---
-# vmware nettverkskort
+## vmware tools nettverkskort
   * i 2015
   * i verdens 6. rikeste land
   * ops var flinke (Victor / Marius)
@@ -104,4 +105,11 @@ Revert Revert "EntityFramework 6.1.3" TREGT?
 
 ***
 ## Bonus
-*
+```
+PM> Install-Package Microsoft.Hadoop.Avro
+```
+* -1,2° -> -12°
+* -5,6° -> -56°
+
+' Beta
+' Serialiserer ikke decimal på riktig måte
