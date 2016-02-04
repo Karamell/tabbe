@@ -14,7 +14,7 @@
     <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+    <link rel="stylesheet" href="css/theme/sky.css" id="theme">
     <link type="text/css" rel="stylesheet" href="fsharp.formatting/styles/style.css" />
     <link type="text/css" rel="stylesheet" href="fsharp.formatting/styles/deedle.css" />
     <link type="text/css" rel="stylesheet" href="css/custom.css" />
@@ -51,66 +51,47 @@
 
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
-            <section >
-<h3>Tabber på YR &lt; 2016</h3>
-<h4>www.yr.no (aka mmx)</h4>
+            <section data-background="images/YR-flagg.svg" data-background-repeat="no-repeat" data-background-size="100%">
+<aside class="notes">
+rorbua<br/>
+</aside>
+</section>
+<section >
+<h1>Tabber på YR</h1>
+<h3>www.yr.no (aka mmx)</h3>
 <ul>
 <li>litt om Arkitektur</li>
-<li>30. april</li>
 <li>tail calls</li>
+<li>
+30. april 2015
+<aside class="notes">
+to historier<br/>
+</aside>
+</li>
 </ul>
 </section>
 <section >
-<h3>Arkitektur</h3>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Vigelansparken.JPG" alt="Monolitt" /></p>
+<h2>Arkitektur</h2>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Vigelansparken.JPG" alt="Monolitt" />
+<aside class="notes">
+fek. sql brukes til config og stedsnavn<br/>
+organisk vekst i 8 år (folk)<br/>
+ikke <em>så</em> ille<br/>
+</aside></p>
 </section>
 <section >
-<h3>desperasjon</h3>
-<h3>git commit - 30. april</h3>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
-<span class="l">2: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="i">Revert</span> <span class="s">&quot;EntityFramework 6.1.3&quot;</span> <span class="i">TREGT</span><span class="o">?</span>
-<span class="i">Revert</span> <span class="s">&quot;net451&quot;</span>
-</code></pre></td>
-</tr>
-</table>
-</section>
-<section >
-<h3>git commit - 4. mai</h3>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
-<span class="l">2: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="i">Revert</span> <span class="i">Revert</span> <span class="s">&quot;net451&quot;</span>
-<span class="i">Revert</span> <span class="i">Revert</span> <span class="s">&quot;EntityFramework 6.1.3&quot;</span> <span class="i">TREGT</span><span class="o">?</span>
-</code></pre></td>
-</tr>
-</table>
-</section>
-<section >
-<section >
-<h3>gjettekonk</h3>
-<ol>
-<li>DynamiskConfig &amp; snøskredsesong</li>
-<li>Met's api er tregt</li>
-<li>vmware tools oppgradering</li>
-</ol>
-</section>
-<section author="Bård Rolstad Henriksen" description="tabber på Yr i det siste" theme="night" title="Yr tabber &lt; 2016" transition="default">
-<h1>vmware nettverkskort</h1>
-<ul>
-<li>i 2015</li>
-<li>i verdens 6. rikeste land</li>
-</ul>
-</section>
-</section>
-<section >
-<h3>i 2013 en gang</h3>
+<h2>i 2013 en gang</h2>
 <p>Frontene kræsjer</p>
 <ul>
-<li><code>StackOverflowException</code> (en webside?)</li>
-<li><code>InvalidProgramException</code></li>
+<li><code>StackOverflowException</code> (??)</li>
+<li><code>InvalidProgramException</code> (???)</li>
 <li><code>AldriSettFørException</code></li>
+<li>
+<code>FinnesIkkePåSOException</code>
+<aside class="notes">
+stor deploy<br/>
+</aside>
+</li>
 </ul>
 </section>
 <section >
@@ -125,14 +106,91 @@
 </code></pre></td>
 </tr>
 </table>
-<p>En tulling hadde slått på generate tail calls i F#-prosjektet</p>
+<ul>
+<li>En rotekopp hadde slått på generate tail calls i F#-prosjektet</li>
+</ul>
+<aside class="notes">
+Oppgradering av F# prosjektfil<br/>
+blanding av feil brik av IDisposable + F#<br/>
+</aside>
+</section>
+<section >
+<h2>desperasjon</h2>
+<h3>git commit - 30. april</h3>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+<span class="l">2: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="i">Revert</span> <span class="s">&quot;EntityFramework 6.1.3&quot;</span> <span class="i">TREGT</span><span class="o">?</span>
+<span class="i">Revert</span> <span class="s">&quot;net451&quot;</span>
+</code></pre></td>
+</tr>
+</table>
+<aside class="notes">
+original deploy hadde 1 mnd gammel kode<br/>
+før en helg<br/>
+ikke nede, men tregt<br/>
+</aside>
+</section>
+<section >
+<h3>git commit - 4. mai</h3>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+<span class="l">2: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="i">Revert</span> <span class="i">Revert</span> <span class="s">&quot;net451&quot;</span>
+<span class="i">Revert</span> <span class="i">Revert</span> <span class="s">&quot;EntityFramework 6.1.3&quot;</span> <span class="i">TREGT</span><span class="o">?</span>
+</code></pre></td>
+</tr>
+</table>
+<aside class="notes">
+etter helga<br/>
+</aside>
+</section>
+<section >
+<h3>Hva skjer ???</h3>
+<ul>
+<li>tregt</li>
+<li>Timeouts</li>
+<li>Sql timeouts</li>
+</ul>
+</section>
+<section >
+<section >
+<h3>gjettekonk</h3>
+<ol>
+<li>DynamiskConfig &amp; snøskredsesong</li>
+<li>Met's api er tregt</li>
+<li>vmware tools oppgradering</li>
+<li>generate tail calls</li>
+</ol>
+</section>
+<section author="Bård Rolstad Henriksen" description="tabber på Yr i det siste" theme="sky" title="Yr tabber &lt; 2016" transition="default">
+<h1>vmware nettverkskort</h1>
+<ul>
+<li>i 2015</li>
+<li>i verdens 6. rikeste land</li>
+<li>
+ops var flinke (Victor / Marius)
+<aside class="notes">
+1 måned gammel kode<br/>
+1 måned gammel patch<br/>
+reboot av server triggea feil<br/>
+</aside>
+</li>
+</ul>
+</section>
 </section>
 <section >
 <h3>Hva har vi lært?</h3>
 <ul>
-<li>❤ CI</li>
+<li>❤ CI CD</li>
+<li>❤ (dev)ops</li>
+<li>Aldri nok test</li>
 <li>Ikke fikle med saker som funker</li>
 </ul>
+</section>
+<section >
+<h2>Bonus</h2>
+<p>*</p>
 </section>
 
 
